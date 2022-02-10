@@ -3,12 +3,19 @@
 using namespace std;
 
 int main() {
-    int A[5];
-    A[0] = 12;
-    A[1] = 10;
-    A[2] = 15;
+    int n;
+    cout<<"enter Size: ";
+    cin>>n;
+    int A[n];
+    A[0] = 2;
 
-    cout << sizeof(A) << endl;
-    cout << A[1];
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     cout<<A[i]<<endl;
+    // }
+    for (int x:A) {
+        cout<<x<<endl;
+    }
+
     return 0;
 }
